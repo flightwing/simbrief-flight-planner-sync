@@ -6,6 +6,7 @@
 
 > **A lightweight browser extension that imports your latest [SimBrief](https://www.simbrief.com/) flight plan into the [Microsoft Flight Simulator Flight Planner](https://planner.flightsimulator.com/) with a single click.**
 
+![Version](https://img.shields.io/github/v/release/flightwing/simbrief-flight-planner-sync?style=for-the-badge&color=blue)
 ![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Chromium-lightgrey?style=for-the-badge)
 ![License](https://img.shields.io/github/license/flightwing/simbrief-flight-planner-sync?style=for-the-badge)
 
