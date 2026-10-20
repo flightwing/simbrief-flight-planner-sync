@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "SimBrief Flight Planner Sync",
+  "version": "0.1.0",
+  "description": "It retrieves the latest flight plan from SimBrief and imports it into the MSFS Flight Planner.",
+  "icons": { "16": "src/icons/icon-16.png", "32": "src/icons/icon-32.png", "48": "src/icons/icon-48.png", "128": "src/icons/icon-128.png" },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://www.simbrief.com/*",
+    "https://planner.flightsimulator.com/*"
+  ],
+  "background": { "service_worker": "src/background/service-worker.js", "type": "module" },
+  "action": {
+    "default_icon": { "16": "src/icons/icon-16.png", "32": "src/icons/icon-32.png", "48": "src/icons/icon-48.png" },
+    "default_popup": "src/popup/popup.html",
+    "default_title": "SimBrief Flight Planner Sync"
+  },
+  "content_scripts": [{
+    "matches": ["https://planner.flightsimulator.com/*"],
+    "js": ["src/adapters/msfs-flight-planner.js", "src/content/flight-planner.js"],
+    "run_at": "document_idle"
+  }]
+}

@@ -1,0 +1,7 @@
+:root { color-scheme: dark; font: 14px system-ui, sans-serif; }
+body { margin: 0; min-width: 330px; background: #101923; color: #edf4fa; }
+main { padding: 16px; } h1 { margin: 0 0 16px; font-size: 19px; } h2 { font-size: 15px; margin: 18px 0 8px; }
+label { display: block; margin-bottom: 6px; color: #b9c7d5; }
+input, button { font: inherit; border-radius: 5px; border: 1px solid #405263; padding: 8px; } input { box-sizing: border-box; width: 100%; background: #182633; color: inherit; }
+button { width: 100%; margin-top: 10px; border: 0; background: #0e77bd; color: white; cursor: pointer; font-weight: 650; } button:hover { background: #168bd8; }
+#status { min-height: 20px; margin: 12px 0 0; color: #b9c7d5; } #status.error { color: #ffadad; } dl { margin: 0; } dt { color: #8fa6b9; margin-top: 6px; } dd { margin: 1px 0; word-break: break-word; }
