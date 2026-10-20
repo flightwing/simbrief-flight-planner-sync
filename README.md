@@ -34,10 +34,15 @@ You can download the latest version from the Releases page:
 
 Then install it as an unpacked extension:
 
-1. Unzip the downloaded archive.
+1. Unzip the downloaded archive into a **permanent location** (see the note below).
 2. Open `chrome://extensions` (or `edge://extensions` in Microsoft Edge).
 3. Turn on **Developer mode**.
 4. Click **Load unpacked** and select the unzipped folder (the one containing `manifest.json`).
+
+> [!IMPORTANT]
+> The browser does not copy an unpacked extension. It keeps loading it from the folder you selected. If you move, rename or delete that folder, the extension stops working. So do not load it straight from your *Downloads* folder if you clean it up regularly. Use a dedicated folder instead, for example `Documents/Browser Extensions/simbrief-flight-planner-sync`.
+
+**Updating:** Replace the contents of the same folder with the new release, then click the reload icon on the extension card in `chrome://extensions`. Your saved SimBrief username stays as it is.
 
 ## 🛫 Usage
 
