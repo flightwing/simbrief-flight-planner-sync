@@ -68,6 +68,10 @@ When preparing a flight, I always planned it in SimBrief first and then had to r
 *   **✈️ Simulator integration:** Its flight plans can be used by many add-on aircraft, EFBs and tools across simulators.
 *   **🌍 Free to use:** Available to everyone with a free account.
 
+## 🛩️ About FlightWing
+
+SimBrief Flight Planner Sync is developed and maintained by [FlightWing](https://flightwing.org/), an independent open-source project building tools for the flight simulation community. You can find our other projects on [GitHub](https://github.com/flightwing).
+
 ---
 
 ## ⚠️ Disclaimer & Attribution
@@ -76,7 +80,7 @@ When preparing a flight, I always planned it in SimBrief first and then had to r
 **Do not use this extension, SimBrief, or the Flight Planner for real-world navigation.** The data provided may be outdated, incomplete, or inaccurate.
 
 ### ⚖️ This Project
-This extension is an open-source project developed by the community. **It is NOT associated with, endorsed by, or affiliated with SimBrief, Navigraph, Microsoft, or Asobo Studio.**
+This extension is an independent open-source project by FlightWing. **It is NOT associated with, endorsed by, or affiliated with SimBrief, Navigraph, Microsoft, or Asobo Studio.**
 
 All rights to the SimBrief and Microsoft Flight Simulator names, logos, and underlying services belong to their respective owners. This extension simply transfers data you already have access to from one service to the other.
 
