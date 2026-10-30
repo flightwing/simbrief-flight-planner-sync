@@ -111,6 +111,13 @@ git clone https://github.com/flightwing/simbrief-flight-planner-sync.git
 
 Then load the cloned folder in `chrome://extensions` via **Load unpacked** (with **Developer mode** turned on). After changing the code, click the reload icon on the extension card and refresh the Flight Planner tab.
 
+Unit tests use the built-in Node.js test runner and need no dependencies (Node.js 22 or newer):
+
+| Command | Purpose |
+| --- | --- |
+| `npm test` | Runs all tests. |
+| `npm run test:unit` | Runs the unit tests in `tests/unit/`. |
+
 Project structure:
 
 | Path | Purpose |
@@ -122,3 +129,4 @@ Project structure:
 | `src/adapters/msfs-flight-planner.js` | Fills the route in the Flight Planner. All UI selectors live here. |
 | `src/content/flight-planner.js` | Content script that receives the import request on the Flight Planner page. |
 | `src/shared/flight-plan.js` | Internal flight plan model and normalization. |
+| `tests/unit/` | Unit tests. |

@@ -1,0 +1,9 @@
+{
+  "name": "simbrief-flight-planner-sync",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "node --test \"tests/unit/**/*.test.js\""
+  }
+}
